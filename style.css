@@ -1,0 +1,658 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+.sidebar {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #FFF;
+    margin-inline-start: 50px;
+}
+
+.sidebar a:hover,
+.sidebar .active {
+    text-decoration: underline;
+}
+
+.header_image {
+    background-color: rgba(247, 85, 10, 0.829);
+    height: 400px;
+    width: 50%;
+    padding-bottom: 25px;
+    z-index: 1;
+}
+
+.header_item {
+    width: 50%;
+    padding-left: 60px;
+}
+
+main {
+    margin-left: 0,
+
+}
+
+.bg {
+    position: absolute;
+    right: 16%;
+    top: 10%;
+    z-index: -1;
+}
+
+.bg img {
+    height: 350px;
+    width: 100%;
+}
+
+.image {
+    padding-right: 150px;
+    float: left;
+    margin-left: -50px;
+    height: 407px;
+}
+
+.worl {
+    position: absolute;
+    margin-left: 108px;
+    background-color: #FFF;
+    margin-top: 13%;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+.worl p {
+    margin-bottom: 2px;
+}
+
+.worl img {
+    height: 30px;
+    margin-inline: 10px;
+}
+
+.world {
+    position: absolute;
+    margin-left: 170px;
+    background-color: #FFF;
+    margin-top: 17%;
+}
+
+.world img {
+    height: 30px;
+    margin-inline: 10px;
+    padding-top: 2px;
+}
+
+.worlds {
+    position: absolute;
+    margin-left: 50px;
+    background-color: #FFF;
+    margin-top: 20.5%;
+    padding-right: 20px;
+}
+
+.worlds img {
+    margin-inline: 5px;
+}
+
+/*main {
+    margin-left: 60px;
+}*/
+
+main img {
+    height: 20px;
+    padding-bottom: 80px;
+}
+
+.delivery {
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+    padding-top: 120px;
+}
+
+.delivery span {
+    color: orangered;
+}
+
+.company {
+    font-size: 12px;
+    color: grey;
+}
+
+button {
+    background-color: rgba(252, 120, 59, 0.87);
+    color: #FFF;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.sidebar1 {
+    margin-top: 73px;
+    /*height: 850px;
+    margin-left: -60px;*/
+    width: 60%;
+}
+
+.sidebar1 p {
+    margin-top: 25px;
+}
+
+.grid {
+    width: 90%;
+    margin: auto;
+    padding-top: 200px;
+    margin-inline: 50px;
+    margin-left: -400px;
+}
+
+.loc {
+    margin: 0px;
+}
+
+.grid p {
+    margin-left: 60px;
+    margin-top: 0;
+}
+
+.grid img {
+    margin-top: -400px;
+    height: 50px;
+    /*margin-left: 90px;*/
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+
+.services {
+    padding-top: 85px;
+    margin-left: 60px;
+}
+
+.services p {
+    color: grey;
+    font-size: 12px;
+}
+
+.services img {
+    height: 500px;
+
+}
+
+.sidebar2 {
+    position: relative;
+    display: block;
+    background-color: orangered;
+    height: 758px;
+    width: 100%;
+    z-index: 1;
+}
+
+.sidebar2 h1 {
+    text-align: center;
+    color: #FFF;
+}
+
+.sidebar2 p {
+    text-align: center;
+    color: #FFF;
+}
+
+.vector {
+    position: absolute;
+    left: 2%;
+    top: 15%;
+    z-index: -1;
+}
+
+.vector img{
+height: 600px !important;
+width: 100%;
+}
+
+.sidebar2 img {
+    height: 25%;
+}
+
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.item img {
+    padding-bottom: 0;
+}
+
+.women {
+    /*margin-left: 600px;
+    width: 20%;
+    height: 255px;
+    padding-top: 31px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar3 {
+    background-color: ghostwhite;
+    text-align: center;
+    margin-left: -60px;
+    height: 1200px;
+    margin-top: -20px;
+}
+
+.sidebar3 h1 {
+    padding-top: 45px;
+}
+
+.sidebar3 input {
+    margin-bottom: 90px;
+}
+
+.mois {
+    background-color: #FFF;
+    margin-top: 20px;
+}
+
+.basic {
+    background-color: rgb(245, 237, 222);
+    height: 500px;
+    width: 22%;
+    padding-top: 350px;
+    margin-inline-end: 27px;
+    border: 1px solid rgb(247, 143, 106);
+    padding-bottom: 315px;
+}
+
+.basic p {
+    color: black;
+}
+
+.basic1 {
+    background-color: rgb(245, 237, 222);
+    height: 700px;
+    width: 22%;
+    padding-top: 100px;
+    margin-inline-end: 27px;
+    box-shadow: 0px 0px 20px 0.5px rgb(223, 190, 178);
+    border: 1px solid rgb(247, 143, 106);
+}
+
+.basic1 p {
+    color: black;
+}
+
+.basic2 {
+    background-color: rgb(245, 237, 222);
+    height: 730px;
+    width: 22%;
+    padding-top: 250px;
+    margin-inline-end: 27px;
+    border: 1px solid rgb(247, 143, 106);
+    padding-bottom: 125px;
+}
+
+.basic2 p {
+    color: black;
+}
+
+.frame h1 {
+    color: orangered;
+    margin-top: -390px;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.dollar {
+    margin-left: -180px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.frame span {
+    color: orangered;
+    font-size: 45px;
+    margin-top: 50px;
+}
+
+.local {
+    display: block;
+}
+
+.loc {
+    margin-left: 55px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.item {
+    color: none;
+}
+
+svg {
+    margin-bottom: -35px;
+    margin-left: 20px;
+}
+
+.sidebar4 {
+    background-color: ghostwhite;
+}
+
+.sidebar4 h2 {
+    padding-top: 100px;
+}
+
+.sidebar4 span {
+    margin-left: 20px;
+    font-size: 22px;
+    padding-top: -105px;
+}
+
+.sidebar4 .button {
+    color: black;
+    background-color: #FFF;
+    border: 1px solid orange;
+    margin-left: 14%;
+    margin-right: 14%;
+    text-align: left;
+    height: 80px;
+    font-size: 10px;
+}
+
+.sidebar4 p {
+    margin-left: 20px;
+}
+
+.plan {
+    text-align: left;
+    padding-top: 10px;
+    background-color: white;
+    margin-left: 14%;
+    margin-right: 14%;
+    border: 0.5px solid grey;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.end p {
+    color: grey;
+}
+
+.end strong {
+    color: rgb(63, 61, 61);
+}
+@media screen and (max-width:1100px){
+    body {
+       display: block;
+    }
+    .sidebar {
+       padding-right: 50px;
+       overflow: hidden;
+    } 
+    .sidebar a {
+       margin-inline: -2px;
+       margin-inline-end: 15px;
+       font-size: 11px;
+    }
+    .sidebar a:hover,.sidebar .active {
+        text-decoration: underline;
+    }
+    .header_image {
+        background-color: rgba(247, 85, 10, 0.829);
+        height: 240px;
+        width: 62%;
+        padding-bottom: 25px;
+        z-index: 1;
+    }
+    .header_item {
+        width: 50%;
+        padding-left: 5px;
+    }
+    .header_item img{
+        height: 20px;
+    }
+    .image {
+        padding-right: 150px;
+        float: left;
+        margin-left: -50px;
+        height: 207px;
+        padding-top: 40px;
+    }
+    .delivery {
+        font-size: 10px;
+        padding-top: 80px;
+    }
+    .company {
+        font-size: 5.5px;
+    }
+    button {
+        font-size: 8px;
+        margin-top: 25px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .worl {
+        margin-top: 31.25%;
+        padding-bottom: 5px;
+        padding-right: 20px;
+        font-size: 8px;
+        margin-left: 30px;
+    }
+    .worl img {
+        height: 20px;
+        margin-inline: 5px;
+    }
+    
+    .world {
+        margin-top: 38.5%;
+        font-size: 8px;
+        margin-left: 60px;
+    }
+    
+    .world img {
+        height: 20px;
+        margin-inline: 5px;
+    }
+    .worlds {
+        font-size: 8px;
+        margin-left: 10px;
+        margin-top: 45%;
+    }
+    .worlds img {
+        height: 20px;
+        margin-inline: 5px;
+    }
+    .bg img {
+        height: 230px;
+        width: 100%;
+    }
+    .sidebar1{
+        margin-top: -100px;
+    }
+    .sidebar1 p {
+        margin-top: 25px;
+    }
+    .grid {
+        width: 90%;
+        margin-left: 10px;
+    }
+    .loc {
+        margin: 0px;
+    }
+    .grid p {
+        font-size: 6px;
+    }
+    .grid img {
+        flex-wrap: wrap;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 40% 50%;
+    }
+    .services {
+        padding-top: 0px;
+        margin-left: 5px;
+    }
+    .services h1{
+        font-size: 20px;
+    }
+    .services p {
+        color: grey;
+        font-size: 7px;
+    }
+    .services img {
+        height: 300px;
+        margin-left: -35px;
+    }
+    .sidebar2 {
+        height: 350px;
+        width: 100%;
+        z-index: 1;
+    }
+    .sidebar2 h1 {
+        font-size: 15px;
+    }
+    .sidebar2 p {
+       font-size: 9px;
+    }
+    .vector {
+        position: absolute;
+        left: 2%;
+        top: 15%;
+        z-index: -1;
+    }
+    
+    .vector img{
+    height: 250px !important;
+    width: 100%;
+    }
+    
+    .sidebar2 img {
+        height: 25%;
+    }
+    .item img {
+        height: 60px;
+    }
+    .item.other{
+        font-size: 50px ;
+    }
+    .item.text{
+        margin-block: 90px;
+        margin-inline: 10px;
+    }
+    .women {
+       height: 600px;
+    }
+    .women img{
+        margin-bottom: 355px;
+    }
+    .sidebar3 {
+        background-color: ghostwhite;
+        text-align: center;
+        margin-left: -60px;
+        height: 1200px;
+        margin-top: -20px;
+    }
+    
+    .sidebar3 h1 {
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    .sidebar3 p{
+        font-size: 10px;
+        margin-left: 50px;
+    }
+    .sidebar3 input {
+        margin-bottom: 50px;
+    }
+    
+    .mois {
+        background-color: #FFF;
+        margin-top: 20px;
+    }
+    
+    .basic {
+        font-size: 10px;
+        height: 100px;
+        width: 22%;
+    }
+    .basic p {
+        color: black;
+    }
+    
+    .basic1 {
+        background-color: rgb(245, 237, 222);
+        height: 830px;
+        width: 22%;
+    }
+    
+    .basic1 p {
+        color: black;
+    }
+    
+    .basic2 {
+        background-color: rgb(245, 237, 222);
+        height: 850px;
+        width: 22%;
+        padding-top: 250px;
+    }
+    
+    .basic2 p {
+        color: black;
+    }
+    .basic2 svg{
+        height: 10px;
+        margin-left: -10px;
+    }
+    .dollar span{
+       font-size: 22px;
+       margin-left: -33px;
+    }
+    .frame h1 {
+        font-size:20px ;
+        padding-top: 50px;
+    }
+    .frame span {
+        color: orangered;
+        font-size: px;
+        margin-top: 50px;
+    }
+    
+    .local {
+        display: block;
+    }
+    .loc {
+       padding-top: 15px;
+        margin-left: -100px;
+    }
+    .item {
+        color: none;
+    }
+    svg {
+        height: 10px;
+        margin-left: 11px;
+    }
+}
